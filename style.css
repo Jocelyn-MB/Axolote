@@ -1,0 +1,199 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  list-style: none;
+}
+body p{
+  font-family: 'Sora', sans-serif;
+  
+}
+.menu{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items:center;
+  justify-content: flex-end;
+  z-index: 1000;
+}
+.page-head{
+  background-image: url(/img/fondo1_upscaled.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size:100% 110%;
+  min-height: 75vh;
+  display: flex;
+  align-items:center;
+  
+
+}
+.page-head{
+  height: 650px;
+ 
+}
+.menu .navar {
+  justify-content: flex-end;
+}
+
+.menu .navar ul li{
+  position: relative;
+  float: right;
+ 
+}
+.menu .navar ul li a{
+  font-size: 18px;
+  padding: 20px;
+  font-family: 'Sora', sans-serif;
+  font-weight:bold ;
+  color: #C66671;
+  
+
+}
+
+ .header-txt {
+  font-size: 40px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  padding:  100px ;
+  left: 15px;
+  margin-top: 60px;
+  font-family: 'Pacifico', cursive;
+
+ }
+ 
+ main .section-page1,.section-page3{
+  display: flex;
+  min-height: 550px;
+  margin-bottom: 0;
+
+ }
+ .page .section-page1-img{
+  background-image: url(/img/axo1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 45px;
+  margin-left: 55px;
+  margin-right: 45px;
+  margin-bottom: 45px;
+  border-radius: 10%;
+  width: 50%;
+
+  
+ }
+ .page .section-page1-txt{
+  width: 60%;
+  padding: 55px 30px 30px 30px;
+  
+
+ }
+ .page .section-page1-txt li {
+  text-align: justify;
+  font-family: 'Gruppo', sans-serif;
+  font-size: 12px;
+ 
+ }
+
+  p  {
+  text-align: justify;
+  font-family: 'Gruppo', sans-serif;
+  margin-left:40px  ;
+  margin-right:40px  ;
+  font-size: 12px;
+  }
+  .page .section-page1-txt h3,.section-page2-txt h3,.section-page3-txt h3,.section-page4-txt h3{
+  text-align: justify;
+  font-family: 'Pacifico', cursive;
+  margin-left:40px  ;
+  margin-right:40px  ;
+  margin-bottom: 15px;
+  color: #C66671;
+  
+  }
+  main .section-page2,.section-page4{
+    display: flex;
+    background-color:#89B6BB;
+    min-height: 550px;
+  }
+ 
+  .page .section-page2-txt{
+    width: 65%;
+    padding: 45px 30px 30px 30px;
+  }
+  .page .section-page2 P,.section-page4-txt{
+    color: rgb(252, 252, 252);
+    
+
+  }
+  .page .section-page2-img{
+    background-image: url(/img/xolotl.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 45px;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-bottom: 45px;
+    border-radius: 10%;
+    width: 45%;
+  }
+
+  section .section-page3-img,.section-page4-img{
+   
+    margin-top: 45px;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-bottom: 45px;
+    width: 30%;
+   
+
+  }
+  section .section-page3-txt{
+    width: 65%;
+    padding: 45px 30px 30px 30px;
+  }
+  section .section-page4-txt{
+    width: 65%;
+    padding: 45px 45px ;
+  }
+  section .section-page4-txt p{
+   margin-top: 30px;
+  }
+  .formulario {
+    background-color: #C66671;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .list {
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .list-group {
+    width: 100%;
+  }
+  .list-group-item {
+    display: flex;
+    
+  }
+  .embed-responsive {
+    width: 100%; /* Ajusta el ancho del video */
+    padding-bottom: 60.25%; /* aspecto ratio del video (altura / ancho) */
+    position: relative;
+    
+  }
+  
+  .embed-responsive iframe {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+  }
